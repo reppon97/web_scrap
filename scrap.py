@@ -3,8 +3,8 @@ import requests
 import csv
 import argparse
 
-parser = argparse.ArgumentParser(description="An argparse example")
-parser.add_argument('action', help='The action to take (e.g. install, remove, etc.)')
+parser = argparse.ArgumentParser(description="Paste the URL")
+parser.add_argument('action', help='Paste the https://www.roomandboard.com/ product url to get data')
 args = parser.parse_args()
 
 url = args.action
